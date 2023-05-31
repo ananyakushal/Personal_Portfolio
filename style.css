@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(16, 16, 129); 
+    color: white
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+    background-color: rgb(60, 60, 145);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none ;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none ;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(126, 126, 204);
+    font-size: 21px;
+}
+.left{
+    font-size: 30px;
+    font-weight: 700;
+}
+.right{
+    font-size: 20px;
+}
+
+.firstSec{
+    display: flex;
+    justify-content: space-around;
+    margin: 160px 0;
+    align-items: center;
+}
+.firstSec >div{
+    width: 30%;
+}
+.leftSec{
+    font-size: 50px;
+    /* margin: 70px 0; */
+}
+.rightSec img{
+    width: 80%;
+    margin: 50px 0;
+}
+.name{
+    color: rgb(141, 75, 203);
+}
+
+#element{
+    color: rgb(141, 75, 203);
+}
+
+.secondSec{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+hr{
+    border: 0;
+    background: rgb(141, 75, 203);
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.secondSec h1{
+    font-size: 30px;
+}
+
+.work{
+    color: gray;
+}
+
+.secondSec .box{
+    background: white;
+    width: 76vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondSec .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 120px;
+}
+
+.img-top{
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+.vertical-title{
+    position: relative;
+    top: 75px;
+    width: 150px;
+    font-size: 14px;
+}
+.vertical-title-desc{
+    position: relative;
+    top: 86px;
+    color: gray;
+    width: 150px;
+    font-size: 9px;  
+}
