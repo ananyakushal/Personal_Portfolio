@@ -86,14 +86,14 @@ hr{
 
 .secondSec .box{
     background: white;
-    width: 76vw;
+    width: 65vw;
     height: 2px;
     margin: 56px 0;
     display: flex;
 }
 
 .secondSec .vertical{
-    height: 93px;
+    height: 80px;
     width: 1px;
     background-color: white;
     margin: 0 120px;
@@ -108,13 +108,13 @@ hr{
 .vertical-title{
     position: relative;
     top: 75px;
-    width: 150px;
-    font-size: 14px;
+    width: 190px;
+    font-size: 23px;
 }
 .vertical-title-desc{
     position: relative;
     top: 86px;
     color: gray;
-    width: 150px;
-    font-size: 9px;  
+    width: 200px;
+    font-size: 20px;  
 }
